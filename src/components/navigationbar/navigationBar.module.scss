@@ -1,0 +1,40 @@
+@import '../../baseCss/variables.module.scss';
+.container {
+background-color: $color-secondary-light;
+padding-bottom: .5rem;
+
+    .title {
+        text-transform: uppercase;
+        text-align: center;
+        color: $color-heading-text;
+        font-size: 2rem;
+    }
+    .h4text {
+        color: $color-secondary-dark;
+        font-size: 1.5rem;
+    }
+    .nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .nav li {
+        margin-left: 1.5rem;
+        font-size: 1.25rem;
+      }
+      
+      .nav a {
+        text-decoration: none;
+        color: white;
+      }
+      
+      .nav a:hover,
+      .nav a:active,
+      .nav a.active {
+        color: #f23434;
+      }
+      .searchBar {
+        background-color: red;
+      }
+}
