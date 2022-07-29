@@ -18,8 +18,8 @@ const NavigationBar = () => {
                     </li>
 
                     <li>
-                        <NavLink to='/dlaczego_my' className={navData => navData.isActive ? classes.active : ''}>
-                            Dlaczego my?
+                        <NavLink to='/oferta' className={navData => navData.isActive ? classes.active : ''}>
+                            Oferta
                         </NavLink>
                     </li>
 
@@ -32,6 +32,16 @@ const NavigationBar = () => {
                     <li>
                         <NavLink to='/kontakt' className={navData => navData.isActive ? classes.active : ''}>
                             Kontakt
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/zapisz_sie' className={navData => navData.isActive ? classes.active : ''}>
+                            Zapisz się
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/regulamin' className={navData => navData.isActive ? classes.active : ''}>
+                            Regulamin
                         </NavLink>
                     </li>
                 </ul>

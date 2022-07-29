@@ -1,6 +1,7 @@
 import React from 'react';
 
-const DlaczegoMy = () => {
+
+const ZapiszSie = () => {
     return (
         <div>
             
@@ -8,4 +9,4 @@ const DlaczegoMy = () => {
     );
 };
 
-export default DlaczegoMy;
+export default ZapiszSie;
