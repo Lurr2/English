@@ -1,0 +1,29 @@
+@import '../../../baseCss/variables.module.scss';
+
+.container {
+    height: 80vh;
+    display: flex;
+    background-color: $color-contact-bg;
+    padding-top: 3rem;
+
+    .content, .content2{
+        flex: 1;
+        margin: auto;
+    }
+    
+    .content {
+        text-align: center;
+    }
+    .spaceMargin {
+        margin: 0 1rem;
+    }
+    .receiveText{
+        font-size: 2rem;
+        color: $color-heading-misc;
+    }
+    .signUpText {
+        font-size: 1.5rem;
+    }
+    
+    
+}
