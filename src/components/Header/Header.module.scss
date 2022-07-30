@@ -1,0 +1,36 @@
+@import '../../baseCss/variables.module.scss';
+.header {
+    background-image: 
+        url(https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_-_Union_Flag.jpg);
+        height: 60vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        &_text_box {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 35rem;
+        }
+
+}
+.heading_primary {
+    color: white;
+    backface-visibility: hidden;
+    margin-bottom: 1rem;
+
+    &_main {
+        display: block;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+ .par {
+    display: block;
+    backface-visibility: hidden;
+    color: white;
+    font-size: 1.3rem;
+ }

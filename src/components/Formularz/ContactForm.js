@@ -6,7 +6,7 @@ function ContactForm() {
       return <p>Dziękujemy za wiadomość! Wkrótce się skontaktujemy</p>;
   }
   return (
-      <form onSubmit={handleSubmit} method="POST">
+      <form onSubmit={handleSubmit} method="POST" >
       <label htmlFor="name">
         Imię
       </label>
@@ -24,7 +24,7 @@ function ContactForm() {
         name="surname"
       />
       <label htmlFor="email">
-        Email Address
+        Adres E-mail
       </label>
       <input
         id="email"
@@ -43,7 +43,7 @@ function ContactForm() {
       <ValidationError 
         prefix="Message" 
         field="message"
-        errors={state.errors}
+        errors={'some'.errors}
       />
       <button type="submit" disabled={state.submitting}>
         Submit
@@ -57,3 +57,8 @@ function ContactFormz() {
   );
 }
 export default ContactFormz;
+
+
+
+// Kod dla szefowej
+// xvoypzle const [state, handleSubmit] = useForm("xvoypzle");

@@ -3,9 +3,9 @@ import './baseCss/base.module.scss';
 
 import MainLayout from './components/Layouts/MainLayout/MainLayout';
 
-import Onas from './components/Pages/O nas/Onas';
-import DlaczegoMy from './components/Pages/Oferta/Oferta';
-import Cennik from './components/Pages/Cennik/Cennik';
+import DlaczegoMy from './components/Pages/DlaczegoMy/DlaczegoMy';
+import Oferta from './components/Pages/Oferta/Oferta';
+import Opinie from './components/Pages/Opinie/Opinie';
 import Kontakt from './components/Pages/Kontakt/Kontakt';
 import ZapiszSie from './components/Pages/ZapiszSie/ZapiszSie';
 import Regulamin from './components/Pages/Regulamin/Regulamin';
@@ -15,9 +15,9 @@ function App() {
     <Router basename='/'>
       <MainLayout>
         <Routes>
-          <Route exact path='/' element={<Onas/>} />
-          <Route path='/oferta' element={<DlaczegoMy />} />
-          <Route path='/cennik' element={<Cennik />} />
+          <Route exact path='/' element={<DlaczegoMy/>} />
+          <Route path='/oferta' element={<Oferta />} />
+          <Route path='/opinie' element={<Opinie />} />
           <Route path='/kontakt' element={<Kontakt />} />
           <Route path='/zapisz_sie' element={<ZapiszSie />} />
           <Route path='/regulamin' element={<Regulamin />} />
