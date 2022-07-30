@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import ButtonForm from '../common/ButtonForm/ButtonForm';
 import classes from './Header.module.scss';
 
 const Header = () => {
@@ -12,6 +14,9 @@ const Header = () => {
                     </p>
                     <p className={classes.par}>Zdaj egzamin na 100%</p>
                 </div>
+                <Link to="/kontakt">
+                <ButtonForm buttonText={`Przejdź do formularza`} />
+                </Link>
             </header>
     );
 };
