@@ -11,6 +11,10 @@
         text-transform: uppercase;
         letter-spacing: 0.2rem;
     }
+    .description {
+        text-align: justify;
+        text-indent: 1.5rem;
+    }
     img {
         float: right;
         width: 20rem;
@@ -20,5 +24,6 @@
         font-weight: bold;
         margin-left: 4rem;
         font-style: italic;
+        text-indent: 0;
     }
 }
