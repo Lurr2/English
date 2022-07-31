@@ -7,6 +7,7 @@ import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 import data from '../../../data.json';
+import ButtonCommon from '../ButtonCommon/ButtonCommon';
 
 const OpinieSlider = ({ slides }) => {
     const [ActiveSlide, SetActiveSlide] = useState(0);
@@ -18,7 +19,7 @@ const OpinieSlider = ({ slides }) => {
 
     const prevSlide = () => {
         SetActiveSlide(ActiveSlide === 0 ? length - 1 : ActiveSlide - 1);
-      };
+    };
 
     const changeSlide = (i) => {
         SetActiveSlide(ActiveSlide => ActiveSlide = i)
@@ -30,7 +31,7 @@ const OpinieSlider = ({ slides }) => {
 
     const dots = [];
 
-    for(let i=0;i<data.opnieSlider.length;i++){
+    for (let i = 0; i < data.opnieSlider.length; i++) {
         dots.push(
             <div className={i === ActiveSlide ? classes.red : null} onClick={() => changeSlide(i)}>
                 <Link to="#" className={classes.dots}>
@@ -38,36 +39,38 @@ const OpinieSlider = ({ slides }) => {
                 </Link>
             </div>
         )
-      }
+    }
 
     return (
 
         <section className={classes.container}>
             <div className={classes.heading}><p>Opinie</p></div>
             <div className={classes.containerSlider}>
-                
-                {data.opnieSlider.slice(ActiveSlide, ActiveSlide + 1).map((slides, index) => { 
+
+                {data.opnieSlider.slice(ActiveSlide, ActiveSlide + 1).map((slides, index) => {
                     return (
-                      <div className={classes.TextBox} key={index}>
-                        <h2 className={classes.Name}>{slides.title}</h2>
-                        <p className={classes.Rating}>{slides.rating}<AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/></p>
-                        <p className={classes.description}>{slides.text}</p>
-                      </div>
+                        <div className={classes.TextBox} key={index}>
+                            <h2 className={classes.Name}>{slides.title}</h2>
+                            <p className={classes.Rating}>{slides.rating}<AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
+                            <p className={classes.description}>{slides.text}</p>
+                            <Link to="/kontakt">
+                                <ButtonCommon buttonText={`Zobacz wszystkie opinie`} /></Link>
+                        </div>
                     );
-                  })}
-                  
-        
-        
-        <div className={classes.dots}><FaArrowAltCircleLeft
-        className={classes.left_arrow}
-        onClick={prevSlide}
-    />{dots}<FaArrowAltCircleRight
-    className={classes.right_arrow}
-    onClick={nextSlide}
-  />
-    </div></div>
+                })}
+
+
+
+                <div className={classes.dots}><FaArrowAltCircleLeft
+                    className={classes.left_arrow}
+                    onClick={prevSlide}
+                />{dots}<FaArrowAltCircleRight
+                        className={classes.right_arrow}
+                        onClick={nextSlide}
+                    />
+                </div></div>
         </section>
-        );
+    );
 };
 
 export default OpinieSlider;

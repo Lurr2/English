@@ -1,0 +1,28 @@
+@import '../../../baseCss/variables.module.scss';
+.btn {
+  background-color: $color-secondary-dark;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: $color-white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 2rem 3rem;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover,
+  &:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+  }
+  
+  &:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+}
+
+
+
