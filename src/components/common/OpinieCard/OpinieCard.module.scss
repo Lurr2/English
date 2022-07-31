@@ -1,0 +1,38 @@
+@import '../../../baseCss/variables.module.scss';
+.container {
+    margin: 0 20rem;
+    margin-top: 2rem;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    border-bottom: .1rem $color-border solid;
+    
+    .TextBox {
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .Name {
+        
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+    .Rating {
+        letter-spacing: .5rem;
+        font-size: 1.2rem;
+        color: $color-button;
+        padding: 1rem;
+    }
+    .description{
+        font-size: 1rem;
+        padding-bottom: 1rem ;
+    }
+
+}

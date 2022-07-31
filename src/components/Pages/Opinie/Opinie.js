@@ -1,14 +1,28 @@
 import React from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
+import data from '../../../data.json';
+
+
+import classes from './Opinie.module.scss';
+import OpinieCard from '../../common/OpinieCard/OpinieCard';
 
 const Opinie = () => {
     return (
         <div>
-        <Header />
-        
-        <Footer/>
+            <Header />
+            {data.opinie.map(dataItem => (
+                <OpinieCard className={classes.TextBox}
+                    key={dataItem.id}
+                    title={dataItem.title}
+                    rating={dataItem.rating}
+                    text={dataItem.text}
+                />
+
+            ))}
+            <Footer />
         </div>
+        
     );
 };
 

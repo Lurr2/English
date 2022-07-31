@@ -49,11 +49,11 @@ const OpinieSlider = ({ slides }) => {
 
                 {data.opnieSlider.slice(ActiveSlide, ActiveSlide + 1).map((slides, index) => {
                     return (
-                        <div className={classes.TextBox} key={index}>
+                        <div className={classes.TextBox} key={slides.id}>
                             <h2 className={classes.Name}>{slides.title}</h2>
                             <p className={classes.Rating}>{slides.rating}<AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
                             <p className={classes.description}>{slides.text}</p>
-                            <Link to="/kontakt">
+                            <Link to="/opinie">
                                 <ButtonCommon buttonText={`Zobacz wszystkie opinie`} /></Link>
                         </div>
                     );
