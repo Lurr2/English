@@ -1,11 +1,12 @@
 import React from 'react';
 import classes from './navigationBar.module.scss';
+import logo from './logo.jpg';
 import { NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
     return (
         <section className={classes.container}>
-        <div className={classes.logo}>znacbiegleangielski</div>
+        <div className={classes.logo}><p className={classes.TitleAndLogo}><img className={classes.logoImage} src={logo} alt='logo'/>znacbiegleangielski</p></div>
             <nav className={classes.nav}>
                 <ul>
                     <li>
