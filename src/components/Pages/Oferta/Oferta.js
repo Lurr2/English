@@ -1,17 +1,14 @@
 import React from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
-import IndywidualneOfertyCard from './IndywidualneOferty/IndywidualneOfertyCard';
-import classes from './Oferta.module.scss';
+import IndywidualneOferty from './IndywidualneOferty/IndywidualneOfertyCard';
+
 
 const Oferta = () => {
     return (
         <section>
             <Header />
-            <p>NaszeOferty</p>
-            <div className={classes.gownoFlex}>
-                <IndywidualneOfertyCard/>
-            </div>
+                <IndywidualneOferty/>
             <Footer />
         </section>
     );

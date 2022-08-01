@@ -1,12 +1,11 @@
 @import '../../../../baseCss/variables.module.scss';
-
 .container{
-    background-color: $color-primary;
-    text-align: center;
-    .picture_box {
-        background-color: red;
-    }
-
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-contact-bg;
+  text-align: center;
+  padding-top: 3rem;
+}
     .pictures_card{
     width: 40vh;
     object-fit: cover;
@@ -34,4 +33,3 @@
     align-items: center;
     justify-content: center;
   }
-}
