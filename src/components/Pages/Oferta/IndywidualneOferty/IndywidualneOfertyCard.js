@@ -5,13 +5,13 @@ import { useState } from 'react';
 const IndywidualneOfertyCard = () => {
     return (
         <section className={classes.container}>
-        <p>Nasze oferty</p>
         <div className={classes.picture_box}>
                     <IndywidualneOferty />
                 </div>
         </section>
     );
-    }
+}
+
     const IndywidualneOferty = () => {
         const [CardIndividualToShow, SetCardIndividualToShow] = useState("");
         const [IndividualPopupDisplay, SetIndividualPopupDisplay] = useState(false);
