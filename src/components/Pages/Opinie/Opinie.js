@@ -15,7 +15,6 @@ const Opinie = () => {
                 <OpinieCard className={classes.TextBox}
                     key={dataItem.id}
                     title={dataItem.title}
-                    rating={dataItem.rating}
                     text={dataItem.text}
                 />
 

@@ -1,8 +1,9 @@
 @import '../../../baseCss/variables.module.scss';
 .container {
-    margin: 0 20rem;
+    margin: 0 15rem;
+    padding: 0 15rem;
     margin-top: 2rem;
-    height: 40vh;
+    
     position: relative;
     display: flex;
     text-align: center;
@@ -17,22 +18,18 @@
         flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     }
     
     .Name {
-        
         padding: 1rem 0;
         font-size: 2rem;
     }
-    .Rating {
-        letter-spacing: .5rem;
-        font-size: 1.2rem;
-        color: $color-button;
-        padding: 1rem;
-    }
     .description{
-        font-size: 1rem;
-        padding-bottom: 1rem ;
+        text-align: justify;
+        font-size: 1.5rem;
+        
+       
     }
 
 }

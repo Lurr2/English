@@ -1,0 +1,53 @@
+@import '../../../baseCss/variables.module.scss';
+
+.container {
+
+    margin: 3rem 15rem;
+
+    .textSize {
+        font-size: 1.3rem;
+    }
+
+    .TitlePart {
+        text-align: center;
+        font-size: 1.7rem;
+        margin: 1.5rem 0;
+    }
+    .description {
+        text-align: justify;
+        margin: 1rem 0;
+    }
+    .text {
+        text-indent: 3rem;
+    }
+    .space {
+        margin-top: 1.5rem;
+    }
+    .gain {
+        font-weight: bold;
+    }
+    .BoldItalic {
+        font-weight: bold;
+        font-style: italic;
+    }
+    .Italic {
+        font-style: italic;
+    }
+    .Bold {
+        font-weight: bold;
+    }
+    ul {
+        list-style: none;
+        margin: 1rem 0;
+        margin-left: 1rem;
+    }
+    li {
+        margin: .5rem 0;
+    }
+    ul li:before {
+        font-weight: bold;
+        content: '✓ ';
+      }
+      
+    
+}
