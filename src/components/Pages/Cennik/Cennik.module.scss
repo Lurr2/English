@@ -1,0 +1,48 @@
+@import '../../../baseCss/variables.module.scss';
+
+.container {
+    margin: 0 20rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    table{
+        border: solid black 2px;
+        border-collapse: collapse;
+     li {
+        list-style: none;
+        margin: .4rem;
+     }
+
+td {
+    font-size: 1.2rem;
+    border: solid black 2px;
+}
+}
+.cennik {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.centerBold {
+    text-align: center;
+    font-weight: bold;
+}
+.Bold {
+    font-weight: bold;
+    text-align: left;
+}
+}
+.textContainer {
+    margin: 0 20rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    p {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+}
