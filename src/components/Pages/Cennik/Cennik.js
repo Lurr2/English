@@ -8,10 +8,10 @@ const Cennik = () => {
             <Header />
             <div className={classes.container}>
                 <table>
-                    <tr className={classes.centerBold}>
+                    <tr >
                         <td className={classes.cennik}>Cennik</td>
-                        <td >Zajęcia indywidualne  u nauczyciela lub online w pakiecie miesięcznym (min. 1x/tydz.)</td>
-                        <td >Zajęcia w grupie 2-3 os. u nauczyciela lub online w pakiecie miesięcznym (min. 1x/tydz.)</td>
+                        <td className={classes.centerBold}>Zajęcia indywidualne  u nauczyciela lub online w pakiecie miesięcznym (min. 1x/tydz.)</td>
+                        <td className={classes.centerBold}>Zajęcia w grupie 2-3 os. u nauczyciela lub online w pakiecie miesięcznym (min. 1x/tydz.)</td>
                     </tr>
                     <tr>
                         <td><ul className={classes.Bold}>
