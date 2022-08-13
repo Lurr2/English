@@ -28,20 +28,18 @@ const NavigationBar = () => {
                     </li>
 
                     <li>
-                        <NavLink to='/zapisz_sie' className={navData => navData.isActive ? classes.active : ''}>
-                            Zapisz się
+                        <NavLink to='/cennik' className={navData => navData.isActive ? classes.active : ''}>
+                            Cennik
                         </NavLink>
                     </li>
+
+
                     <li>
                         <NavLink to='/kontakt' className={navData => navData.isActive ? classes.active : ''}>
                             Kontakt
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink to='/regulamin' className={navData => navData.isActive ? classes.active : ''}>
-                            Regulamin
-                        </NavLink>
-                    </li>
+                    
                 </ul>
 
                
