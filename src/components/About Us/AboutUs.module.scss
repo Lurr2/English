@@ -4,6 +4,27 @@
     
     margin: 0 4rem;
     margin-top: 5rem;
+
+    .textBox{
+        margin: 2rem 10rem;
+    }
+    .titlePart {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .listText {
+        font-size: 1.2rem;
+        margin: .5rem 0;
+        text-align: justify;
+    }
+    .listSpacing {
+        margin: 1rem 0;
+        margin-left: 1rem;
+    }
+    .ItalicBold {
+        font-weight: bold;
+        font-style: italic;
+    }
     
     .heading {
         text-align: center;
@@ -15,17 +36,15 @@
     }
     .description {
         text-align: justify;
-        text-indent: 1.5rem;
+        text-indent: 3rem;
+        font-size: 1.4rem;
+    }
+    p {
+        margin-bottom: 1.5rem;
     }
     img {
         float: right;
         width: 20rem;
         margin-left: 1rem;
-    }
-    .ListMargin {
-        font-weight: bold;
-        margin-left: 4rem;
-        font-style: italic;
-        text-indent: 0;
     }
 }

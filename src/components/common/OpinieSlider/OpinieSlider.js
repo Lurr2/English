@@ -3,7 +3,6 @@ import classes from './OpinieSlider.module.scss';
 
 import { useState } from "react";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
-import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 import data from '../../../data.json';
@@ -47,11 +46,10 @@ const OpinieSlider = ({ slides }) => {
             <div className={classes.heading}><p>Opinie</p></div>
             <div className={classes.containerSlider}>
 
-                {data.opnieSlider.slice(ActiveSlide, ActiveSlide + 1).map((slides, index) => {
+                {data.opnieSlider.slice(ActiveSlide, ActiveSlide + 1).map((slides) => {
                     return (
                         <div className={classes.TextBox} key={slides.id}>
                             <h2 className={classes.Name}>{slides.title}</h2>
-                            <p className={classes.Rating}>{slides.rating}<AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></p>
                             <p className={classes.description}>{slides.text}</p>
                             <Link to="/opinie">
                                 <ButtonCommon buttonText={`Zobacz wszystkie opinie`} /></Link>

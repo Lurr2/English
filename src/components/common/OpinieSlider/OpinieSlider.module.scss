@@ -1,6 +1,6 @@
 @import '../../../baseCss/variables.module.scss';;
 .container {
-    margin: 0 20rem;
+    margin: 5rem 20rem;
     height: 80vh;
     position: relative;
     display: flex;
@@ -28,8 +28,9 @@
         padding: 1rem;
     }
     .description{
-        font-size: 1rem;
-        padding-bottom: 1rem ;
+        font-size: 1.4rem;
+        padding-bottom: 2rem ;
+        text-align: justify;
     }
     
     
