@@ -3,6 +3,7 @@ import classes from './OpinieSlider.module.scss';
 
 import { useState } from "react";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import {AiFillStar} from 'react-icons/ai';
 import { Link } from "react-router-dom";
 
 import data from '../../../data.json';
@@ -50,9 +51,10 @@ const OpinieSlider = ({ slides }) => {
                     return (
                         <div className={classes.TextBox} key={slides.id}>
                             <h2 className={classes.Name}>{slides.title}</h2>
+                            <p className={classes.star}><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/></p>
                             <p className={classes.description}>{slides.text}</p>
                             <Link to="/opinie">
-                                <ButtonCommon buttonText={`Zobacz wszystkie opinie`} /></Link>
+                                <ButtonCommon buttonText={`Więcej opinii`} /></Link>
                         </div>
                     );
                 })}

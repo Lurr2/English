@@ -14,8 +14,10 @@ const Kontakt = () => {
             <div className={classes.container}>
                 <div className={classes.content}>
                     <div className={classes.spaceMargin}>
-                        <p className={classes.signUpText}>Generała Stanisława Skalskiego, Lublin, Polska</p>
-                        <p className={classes.signUpText}>+48-985-245-1730</p>
+                        <p className={classes.signUpText}>ul. Generała Stanisława Skalskiego, Lublin, Polska</p>
+                        <p className={classes.signUpText}>Turka, Lublin, Polska</p>
+                        <p className={classes.signUpText}>+48 889 854 957</p>
+                        <p className={classes.signUpText}>+48 517 559 810</p>
                         <p className={classes.signUpText}>znacbiegleangielski@gmail.com</p>
                     </div>
                 </div>

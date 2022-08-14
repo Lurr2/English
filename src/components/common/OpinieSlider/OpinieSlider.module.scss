@@ -1,7 +1,6 @@
 @import '../../../baseCss/variables.module.scss';;
 .container {
     margin: 5rem 20rem;
-    height: 80vh;
     position: relative;
     display: flex;
     text-align: center;
@@ -81,5 +80,8 @@
             transform: scale(1.3);
             opacity: 1;
         }
+    }
+    .star {
+        color:gold;
     }
 }
