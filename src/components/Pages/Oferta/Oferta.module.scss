@@ -1,5 +1,4 @@
 @import '../../../baseCss/variables.module.scss';
-
 .container {
 
     margin: 3rem 15rem;
@@ -10,8 +9,12 @@
 
     .TitlePart {
         text-align: center;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         margin: 1.5rem 0;
+        padding: 1rem;
+        background-color: #2E65B2;
+        color: $color-white;
+        border-radius: 4rem;
     }
     .description {
         text-align: justify;
@@ -41,13 +44,28 @@
         margin: 1rem 0;
         margin-left: 1rem;
     }
+      
     li {
         margin: .5rem 0;
     }
-    ul li:before {
+    
+      .Tick li:before {
+        color: red;
         font-weight: bold;
         content: '✓ ';
       }
       
-    
+      .borderRed {
+        border: solid red 2px;
+      }
+    .icon {
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+    .GoldIcon {
+        color: gold;
+    }
+    .centerText {
+        text-align: center;
+    }
 }

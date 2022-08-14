@@ -3,7 +3,8 @@ import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import classes from './Oferta.module.scss';
 import UpSpace from '../../Header/UpSpace';
-
+import {FaAward, FaHandshake, FaUserGraduate} from 'react-icons/fa';
+import {GiBrain, GiProgression} from 'react-icons/gi';
 
 const Oferta = () => {
     return (
@@ -14,6 +15,7 @@ const Oferta = () => {
             <div className={classes.textSize}>
                 <div className={classes.TitlePart}>
                     <h2>„Mów biegle po angielsku”</h2>
+                    <p className={classes.icon}><GiProgression/> </p>
                 </div>
                 <div className={classes.description}>
                     <p className={classes.text}>
@@ -36,6 +38,7 @@ const Oferta = () => {
                 </div>
                 <div className={classes.TitlePart}>
                     <h2>„Zdaj egzamin na 100%”</h2>
+                    <p className={classes.icon}><FaUserGraduate/> </p>
                 </div>
                 <div className={classes.description}>
                     <p className={classes.text}>
@@ -43,15 +46,17 @@ const Oferta = () => {
                     </p>
                 </div>
                 <div className={classes.ListPart}>
-                    <p>Czy wiesz, że <span className={classes.BoldItalic}>średnie wyniki moich uczniów <span className={classes.BoldItalic}>regularnie</span> uczęszczających na zajęcia</span> to:</p>
-                    <ul>
-                        <li>egzamin ósmoklasisty: 96%,</li>
-                        <li>matura podstawowa: 94%,</li>
-                        <li>matura rozszerzona: 88%,</li>
-                        <li>certyfikaty Cambridge (B2 First, C1 Advanced, C2 Proficiency): 100% - zdawalność.</li>
+                    <div className={classes.borderRed}>
+                    <p className={classes.centerText}>Czy wiesz, że <span className={classes.BoldItalic}>średnie wyniki moich uczniów <span className={classes.BoldItalic}>regularnie</span> uczęszczających na zajęcia</span> to:</p>
+                    <ul >
+                        <li><FaAward className={classes.GoldIcon}/> egzamin ósmoklasisty: 96%,</li>
+                        <li><FaAward className={classes.GoldIcon}/> matura podstawowa: 94%,</li>
+                        <li><FaAward className={classes.GoldIcon}/> matura rozszerzona: 88%,</li>
+                        <li><FaAward className={classes.GoldIcon}/> certyfikaty Cambridge (B2 First, C1 Advanced, C2 Proficiency): 100% - zdawalność.</li>
                     </ul>
+                    </div>
                     <p className={classes.gain}>Co zyskujesz?</p>
-                    <ul>
+                    <ul className={classes.Tick}>
                         <li>100% zdawalność egzaminów,,</li>
                         <li>wsparcie doświadczonego nauczyciela,</li>
                         <li>ćwiczenia na arkuszach egzaminacyjnych,</li>
@@ -64,6 +69,7 @@ const Oferta = () => {
                 </div>
                 <div className={classes.TitlePart}>
                     <h2>Korepetycje szkolne</h2>
+                    <p className={classes.icon}><GiBrain/> </p>
                 </div>
                 <div className={classes.description}>
                     <p className={classes.text}>
@@ -78,7 +84,7 @@ const Oferta = () => {
                 </div>
                 <div className={classes.ListPart}>
                 <p className={classes.gain}>Co zyskujesz?</p>
-                    <ul>
+                    <ul className={classes.Tick}>
                         <li>nauka poprawnej brytyjskiej wymowy,</li>
                         <li>płynne mówienie pełnymi zdaniami,</li>
                         <li>poszerzenie zasobu słownictwa,</li>
@@ -93,6 +99,7 @@ const Oferta = () => {
                 </div>
                 <div className={classes.TitlePart}>
                     <h2>Business English</h2>
+                    <p className={classes.icon}><FaHandshake/> </p>
                 </div>
                 <div className={classes.description}>
                     <p className={classes.text}>
@@ -113,7 +120,7 @@ const Oferta = () => {
                 </div>
                 <div className={classes.ListPart}>
                    <p className={classes.gain}>Co zyskujesz?</p>
-                    <ul>
+                    <ul className={classes.Tick}>
                         <li>zajęcia oparte na ciekawych tematach ze świata biznesu, prasy anglojęzycznej (The Guardian, The Economist, Harvard Business Review etc.) podcasty, filmiki YouTube,</li>
                         <li>zajęcia przystosowane do Twoich potrzeb (Ty decydujesz, jakie tematy będą poruszane podczas konwersacji),</li>
                         <li>immersja językowa – otoczenie się żywym językiem, poprzez specjalnie wyselekcjonowane materiały do nauki w zaciszu domowym, omawiane później na zajęciach,</li>

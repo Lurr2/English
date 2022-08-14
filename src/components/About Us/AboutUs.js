@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './AboutUs.module.scss';
-import Dawid from '../../img/Dawid.jpg'
-
+import Dawid from '../../img/Dawid.jpg';
+import {FcIdea} from 'react-icons/fc';
 const AboutUs = () => {
     return (
         <section className={classes.container}>
@@ -9,7 +9,7 @@ const AboutUs = () => {
                 <h2>Dlaczego „Znać biegle angielski”?</h2>
             </div>
             <div className={classes.textBox}>
-                <div className={classes.titlePart}>
+                <div className={classes.titlePart + ' ' + classes.BorderRed}>
                     <h2>Odwiedzając tę stronę na pewno <span className={classes.ItalicBold}>chcesz znać biegle angielski,</span> jednak wciąż nie wiesz jak tego dokonać?</h2>
                 </div>
                 <div>
@@ -23,7 +23,7 @@ const AboutUs = () => {
                         <li className={classes.listSpacing}><span className={classes.ItalicBold}>Potrzebujesz szybkich efektów,</span> chcesz poczuć się pewniej podczas podróży za granicę, ale <span className={classes.ItalicBold}>PRZEDE WSZYSTKIM ZNAĆ BIEGLE ANGIELSKI?</span></li>
                     </ul>
                 </div>
-                <div className={classes.titlePart}>
+                <div className={classes.titlePart + ' ' + classes.BorderRed}>
                     <h2>Być może <span className={classes.ItalicBold}>jesteś rodzicem i chcesz, by Twoje dziecko:</span></h2>
                 </div>
                 <div className={classes.listText}>
@@ -34,6 +34,7 @@ const AboutUs = () => {
                         <li className={classes.listSpacing}><span className={classes.ItalicBold}>zaczęło mówić po angielsku?</span></li>
                     </ul>
                 </div>
+                <div className={classes.dotsy}><p><FcIdea/><FcIdea/><FcIdea/></p></div>
                 <div className={classes.description}>
                     <p><img alt="Prowadzący" src={Dawid} />Świetnie się składa, bo dokładnie wiem jak Ci w tym pomóc.
                         Nazywam się Dawid Bielecki i jestem założycielem szkoły językowej „Znać biegle angielski”.
