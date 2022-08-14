@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import classes from './Kontakt.module.scss';
-
+import UpSpace from '../../Header/UpSpace';
 import Footer from '../../Footer/Footer';
 import ContactForm from '../../Formularz/ContactForm';
 import Header from '../../Header/Header';
@@ -10,6 +10,7 @@ import Header from '../../Header/Header';
 const Kontakt = () => {
     return (
         <section>
+        <UpSpace />
             <Header />
             <div className={classes.container}>
                 <div className={classes.content}>

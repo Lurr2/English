@@ -1,40 +1,69 @@
 @import '../../baseCss/variables.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Amarante&family=Prata&display=swap');
 .header {
     background-image: 
     linear-gradient(
         to right bottom,
         rgba($color-secondary-dark, 0),
         rgba($color-secondary-light, 0)),
-        url(../../img/grafika.png);
-        height: 60vh;
+        url(../../img/Main.png);
+        height: 70vh;
         background-size: 100% 100%;
         position: relative;
         &_text_box {
+            text-transform: uppercase;
             position: absolute;
-            top: 50%;
-            left: 50%;
+            display: flex;
+            flex-direction: column;
+            top: 55%;
+            left: 57%;
             transform: translate(-50%, -50%);
             text-align: center;
             width: 40rem;
-            text-shadow: $color-black 15px 5px 10px;
+            
             
         }
+        .heading_primary {
+            color: $color-white;
+            backface-visibility: hidden;
+            margin-bottom: 1rem;
+        
+            &_main {
+                font-family: 'Alegreya SC';
+                font-size: 3.5rem;
+                font-weight: 700;
+            }
+        }
+         .par1 {
+            color: $color-white;
+            font-size: 2rem;
+            font-family: 'Amarante';
+         }
+         .par2 {
+            color: $color-white;
+            font-size: 3rem;
+            font-family: 'Alegreya SC';
+         }
+         .par3 {
+            color: $color-white;
+            font-size: 2rem;
+            font-family: 'Amarante';
+         }
+         .par4 {
+            color: $color-white;
+            font-size: 3rem;
+            font-family: 'Alegreya SC';
+         }
+         .logo {
+            position: absolute;
+            top: 30%;
+            left: 77%;
 
+            .logoImage{
+                width: 20rem;
+                height: 20rem;
+            }
+            
+         }
 }
-.heading_primary {
-    color: $color-white;
-    backface-visibility: hidden;
-    margin-bottom: 1rem;
-
-    &_main {
-        display: block;
-        font-size: 3.5rem;
-        font-weight: 700;
-    }
-}
- .par {
-    display: block;
-    backface-visibility: hidden;
-    color: $color-white;
-    font-size: 2rem;
- }

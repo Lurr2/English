@@ -2,7 +2,7 @@
 
 .container {
     
-    margin: 0 4rem;
+    
     margin-top: 5rem;
 
     .textBox{
@@ -30,8 +30,9 @@
         text-align: center;
         font-size: 1.5rem;
         margin-bottom: 2rem;
+        padding: 1rem;
         color: $color-white;
-        background-color: $color-main-heading;
+        background-color: #2E65B2;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
     }
@@ -45,7 +46,10 @@
     }
     img {
         float: left;
-        width: 23rem;
+        width: 24rem;
         margin-right: 1rem;
+        border-radius: 1rem;
+        object-fit: cover;
+        box-shadow: 10px 10px 16px #222;
     }
 }

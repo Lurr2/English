@@ -1,6 +1,6 @@
 @import '../../../baseCss/variables.module.scss';
 .btn {
-  background-color: $color-secondary-dark;
+  background-color: #202F50;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
@@ -17,12 +17,12 @@
 
   &:hover,
   &:focus { 
-    background-color: #16437E;
+    background-color: red;
     color: #ffffff;
   }
   
   &:active {
-    background: #09223b;
+    background: red;
     color: rgb(255, 255, 255, .7);
   }
   

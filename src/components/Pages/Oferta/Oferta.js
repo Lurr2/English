@@ -2,12 +2,13 @@ import React from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import classes from './Oferta.module.scss';
-
+import UpSpace from '../../Header/UpSpace';
 
 
 const Oferta = () => {
     return (
         <section>
+        <UpSpace />
             <Header />
             <div className={classes.container}>
             <div className={classes.textSize}>

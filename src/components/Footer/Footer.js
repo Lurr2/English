@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Footer.module.scss';
 import { NavLink } from 'react-router-dom';
+import { BiCopyright } from 'react-icons/bi';
 const Footer = () => {
     return (
         <section className={classes.container}>
@@ -40,8 +41,7 @@ const Footer = () => {
                 </ul>
             </nav>
             <div className={classes.description_text}>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
-            It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+            <p><BiCopyright/> Wszelkie prawa zastrzeżone - Znać biegle angielski</p>
             <p>Zapoznaj się z naszym <NavLink className={classes.Regulamin} to='/regulamin'>
             Regulaminem
             </NavLink></p>
