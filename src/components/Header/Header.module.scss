@@ -5,34 +5,36 @@
         to right bottom,
         rgba($color-secondary-dark, 0.6),
         rgba($color-secondary-light, 0.4)),
-        url(https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_-_Union_Flag.jpg);
+        url(../../img/flaga.jpg);
         height: 60vh;
         background-size: 100% 100%;
         position: relative;
         &_text_box {
             position: absolute;
-            top: 40%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
-            width: 35rem;
+            width: 40rem;
+            text-shadow: $color-black 15px 5px 10px;
+            
         }
 
 }
 .heading_primary {
-    color: white;
+    color: $color-white;
     backface-visibility: hidden;
     margin-bottom: 1rem;
 
     &_main {
         display: block;
-        font-size: 3rem;
+        font-size: 3.5rem;
         font-weight: 700;
     }
 }
  .par {
     display: block;
     backface-visibility: hidden;
-    color: white;
-    font-size: 1.3rem;
+    color: $color-white;
+    font-size: 2rem;
  }
