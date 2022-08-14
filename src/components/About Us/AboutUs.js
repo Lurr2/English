@@ -6,7 +6,7 @@ const AboutUs = () => {
     return (
         <section className={classes.container}>
             <div className={classes.heading}>
-                <h2>Dlaczego „Znać biegle angielski”</h2>
+                <h2>Dlaczego „Znać biegle angielski”?</h2>
             </div>
             <div className={classes.textBox}>
                 <div className={classes.titlePart}>
