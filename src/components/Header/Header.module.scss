@@ -34,6 +34,13 @@
     left: 60%;
     }
   }
+  @media only screen and (max-width: 400px) {
+    &_text_box {
+        width: 13rem;
+        top: 45%;
+    left: 65%;
+    }
+  }
   .heading_primary {
     color: $color-white;
     backface-visibility: hidden;
@@ -61,14 +68,20 @@
       }
       @media only screen and (max-width: 400px) {
         &_main {
-          font-size: 1rem;
+          font-size: .85rem;
         }
       }
       @media only screen and (max-width: 375px) {
         &_main {
-          font-size: 0.9rem;
+          font-size: 0.8rem;
         }
       }
+  }
+  @media only screen and (max-width: 400px) {
+    .heading_primary {
+      font-size: .85rem;
+      margin-bottom: .2rem;
+    }
   }
 
   .par1 {
@@ -88,7 +101,7 @@
   }
   @media only screen and (max-width: 400px) {
     .par1 {
-      font-size: .9rem;
+      font-size: .85rem;
     }
   }
   @media only screen and (max-width: 375px) {
@@ -113,14 +126,10 @@
   }
   @media only screen and (max-width: 400px) {
     .par2 {
-      font-size: 1rem;
+      font-size: .91rem;
     }
   }
-  @media only screen and (max-width: 375px) {
-    .par2 {
-      font-size: .9rem;
-    }
-  }
+  
   .par3 {
     color: $color-white;
     font-size: 2rem;
@@ -138,7 +147,7 @@
   }
   @media only screen and (max-width: 400px) {
     .par3 {
-      font-size: .9rem;
+      font-size: .8rem;
     }
   }
   
@@ -159,7 +168,7 @@
   }
   @media only screen and (max-width: 400px) {
     .par4 {
-      font-size: 1rem;
+      font-size: .9rem;
     }
   }
   .logo {
@@ -186,8 +195,8 @@
       }
       @media only screen and (max-width: 400px) {
         .logoImage {
-            width: 5rem;
-            height: 5rem;
+            width: 4rem;
+            height: 4rem;
         }
       }
     
@@ -204,15 +213,16 @@
       left: 50%;
     }
   }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 400px) {
     .logo {
-      top: 70%;
-      left: 50%;
+      top: 65%;
+      left: 55%;
     }
   }
 }
 @media only screen and (max-width: 400px) {
     .header {
-      height: 50vh;
+      height: 40vh;
+      
     }
   }
