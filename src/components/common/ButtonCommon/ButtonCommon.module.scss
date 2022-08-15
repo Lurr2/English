@@ -23,6 +23,16 @@
   }
   
 }
+@media only screen and (max-width: 1024px) {
+  .btn {
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .btn {
+    padding: .6rem 1.3rem;
+  }
+}
 
 
 

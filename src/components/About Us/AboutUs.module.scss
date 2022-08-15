@@ -8,16 +8,36 @@
     .textBox{
         margin: 2rem 10rem;
     }
-    .titlePart {
-        text-align: center;
-        font-size: 1.6rem;
-    }
+    @media only screen and (max-width: 1024px) {
+        .textBox {
+            margin: 2rem 8rem;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .textBox {
+            margin: 2rem 5rem;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .textBox {
+            margin: .5rem 1rem;
+        }
+      }
+
+    
     .listText {
         font-size: 1.3rem;
         margin: .5rem 0;
         text-align: justify;
-        list-style:none
+        list-style:none;
     }
+    @media only screen and (max-width: 1024px) {
+        .listText {
+            font-size: 1.1rem;
+        }
+      }
+    
+    
     .listSpacing {
         margin: 1rem 0;
         margin-left: 1rem;
@@ -44,14 +64,36 @@
         text-transform: uppercase;
         letter-spacing: 0.2rem;
     }
+    @media only screen and (max-width: 1024px) {
+        .heading {
+            font-size: 1.1rem;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .heading {
+            font-size: .9rem;
+        }
+      }
     .description {
         text-align: justify;
         text-indent: 3rem;
         font-size: 1.4rem;
     }
+    @media only screen and (max-width: 1024px) {
+        .description {
+            font-size: 1.1rem;
+        }
+      }
+    
     p {
         margin-bottom: 1.5rem;
     }
+    @media only screen and (max-width: 1024px) {
+        p {
+            margin-bottom: 1rem;
+        }
+      }
+    
     img {
         float: left;
         width: 24rem;
@@ -60,6 +102,21 @@
         object-fit: cover;
         box-shadow: 10px 10px 16px #222;
     }
+    @media only screen and (max-width: 1024px) {
+        img {
+          width: 16rem;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        img {
+            width: 14rem;
+        }
+      }
+      @media only screen and (max-width: 375px) {
+        img {
+            width: 8rem;
+        }
+      }
     .BorderRed {
         text-align: center;
         font-size: 1.7rem;
@@ -68,6 +125,11 @@
         border: solid red 2px;
         border-radius: 1rem;
     }
+    @media only screen and (max-width: 1024px) {
+        .BorderRed {
+            font-size: 1.1rem;
+        }
+      }
     .dotsy {
         font-size: 4rem;
         font-weight: bold;

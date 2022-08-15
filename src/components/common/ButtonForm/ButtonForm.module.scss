@@ -27,6 +27,20 @@
   }
   
 }
-
+@media only screen and (max-width: 1024px) {
+  .btn {
+    top: 92%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .btn {
+    top: 91%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btn {
+    transform: scale(0.8);
+  }
+}
 
 

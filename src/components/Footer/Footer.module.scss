@@ -14,6 +14,11 @@
         margin-left: 1.5rem;
         font-size: 1.2rem;
       }
+      @media only screen and (max-width: 1024px) {
+        .nav li {
+          margin-left: 1rem;
+        }
+      }
       
       .nav a {
         text-decoration: none;
@@ -31,7 +36,7 @@
         color: $color-white;
         font-size: 1.3rem;
       }
-      @media only screen and (max-width: 900px) {
+      @media only screen and (max-width: 1024px) {
         .description_text {
           margin: 2rem 10rem;
         }
@@ -39,16 +44,19 @@
       @media only screen and (max-width: 768px) {
         .description_text {
           margin: 2rem 7rem;
+          font-size: 1.1rem;
         }
       }
       @media only screen and (max-width: 600px) {
         .description_text {
           margin: 2rem 3rem;
+          font-size: 1rem;
         }
       }
       @media only screen and (max-width: 375px) {
         .description_text {
-          margin: 2rem 1rem;
+          margin: 1rem 1rem;
+          font-size: .8rem;
         }
       }
       .Regulamin {
