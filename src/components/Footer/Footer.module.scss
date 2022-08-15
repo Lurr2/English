@@ -2,7 +2,7 @@
 .container {
     padding-bottom: .5rem;
     background-color: $color-bar;
-    height: 30vh;
+    
     .nav ul {
         list-style: none;
         display: flex;
@@ -30,6 +30,26 @@
         margin: 2rem 30rem;
         color: $color-white;
         font-size: 1.3rem;
+      }
+      @media only screen and (max-width: 900px) {
+        .description_text {
+          margin: 2rem 10rem;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .description_text {
+          margin: 2rem 7rem;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .description_text {
+          margin: 2rem 3rem;
+        }
+      }
+      @media only screen and (max-width: 375px) {
+        .description_text {
+          margin: 2rem 1rem;
+        }
       }
       .Regulamin {
         color: white;
