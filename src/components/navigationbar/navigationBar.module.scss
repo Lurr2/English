@@ -17,6 +17,11 @@
       
   }
 }
+@media only screen and (max-width: 768px) {
+  .displaing {
+  font-size: 1.3rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   .displaing {
   display: none;
@@ -31,8 +36,6 @@
 }
 
 
-
-
 .logoImage {
   margin-right: 1.5rem;
   width: 3rem;
@@ -40,10 +43,20 @@
   
 }
 
+@media only screen and (max-width: 768px) {
+  .logoImage {
+    margin-right: .7rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   .logoImage {
     width: 4rem;
     height: 4rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .logoImage {
+    margin-right: .2rem;
   }
 }
 
@@ -68,14 +81,21 @@
 @media only screen and (max-width: 768px) {
   .nav li {
     margin-left: 1rem;
-  font-size: 1rem;
+  
       
   }
 }
 @media only screen and (max-width: 600px) {
   .nav li {
-    margin-left: 1rem;
-  font-size: 1.2rem;
+    margin-left: .7rem;
+
+      
+  }
+}
+@media only screen and (max-width: 400px) {
+  .nav li {
+   font-size: .9rem;
+
       
   }
 }
@@ -89,4 +109,9 @@
 .nav a:active,
 .nav a.active {
   color: #f23434;
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    padding: 0;
+  }
 }

@@ -22,25 +22,27 @@
     text-align: center;
     width: 40rem;
   }
-  @media only screen and (max-width: 1024px) {
-    &_text_box {
-        width: 30rem;
-    }
-  }
+  
   @media only screen and (max-width: 768px) {
     &_text_box {
         width: 20rem;
     }
   }
+  @media only screen and (max-width: 600px) {
+    &_text_box {
+        top: 55%;
+    left: 60%;
+    }
+  }
   .heading_primary {
     color: $color-white;
     backface-visibility: hidden;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 
     &_main {
       font-family: "Alegreya SC";
       font-size: 3.5rem;
-      font-weight: 700;
+      
     }
     @media only screen and (max-width: 1024px) {
       &_main {
@@ -57,9 +59,14 @@
           font-size: 1.5rem;
         }
       }
+      @media only screen and (max-width: 400px) {
+        &_main {
+          font-size: 1rem;
+        }
+      }
       @media only screen and (max-width: 375px) {
         &_main {
-          font-size: 1.1rem;
+          font-size: 0.9rem;
         }
       }
   }
@@ -79,9 +86,14 @@
       font-size: 1.2rem;
     }
   }
+  @media only screen and (max-width: 400px) {
+    .par1 {
+      font-size: .9rem;
+    }
+  }
   @media only screen and (max-width: 375px) {
     .par1 {
-      font-size: 1rem;
+      font-size: .8rem;
     }
   }
   .par2 {
@@ -99,9 +111,14 @@
       font-size: 1.5rem;
     }
   }
+  @media only screen and (max-width: 400px) {
+    .par2 {
+      font-size: 1rem;
+    }
+  }
   @media only screen and (max-width: 375px) {
     .par2 {
-      font-size: 1.1rem;
+      font-size: .9rem;
     }
   }
   .par3 {
@@ -119,11 +136,12 @@
       font-size: 1.2rem;
     }
   }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 400px) {
     .par3 {
-      font-size: 1rem;
+      font-size: .9rem;
     }
   }
+  
   .par4 {
     color: $color-white;
     font-size: 3rem;
@@ -139,9 +157,9 @@
       font-size: 1.5rem;
     }
   }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 400px) {
     .par4 {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
   .logo {
@@ -166,17 +184,24 @@
           height: 8rem;
         }
       }
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-width: 400px) {
         .logoImage {
             width: 5rem;
             height: 5rem;
         }
       }
+    
   }
   @media only screen and (max-width: 1024px) {
     .logo {
       top: 50%;
       left: 80%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .logo {
+      top: 70%;
+      left: 50%;
     }
   }
   @media only screen and (max-width: 375px) {
@@ -186,3 +211,8 @@
     }
   }
 }
+@media only screen and (max-width: 400px) {
+    .header {
+      height: 50vh;
+    }
+  }
