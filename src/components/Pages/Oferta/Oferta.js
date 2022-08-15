@@ -26,7 +26,7 @@ const Oferta = () => {
                 </div>
                 <div className={classes.ListPart}>
                     <p className={classes.gain}>Co zyskujesz?</p>
-                    <ul>
+                    <ul className={classes.Tick}>
                         <li>przełamanie bariery językowej,</li>
                         <li>wejście na wyższy poziom znajomości języka angielskiego,</li>
                         <li>poszerzenie słownictwa i poprawa płynności mówienia,</li>
@@ -57,7 +57,7 @@ const Oferta = () => {
                     </div>
                     <p className={classes.gain}>Co zyskujesz?</p>
                     <ul className={classes.Tick}>
-                        <li>100% zdawalność egzaminów,,</li>
+                        <li>100% zdawalność egzaminów,</li>
                         <li>wsparcie doświadczonego nauczyciela,</li>
                         <li>ćwiczenia na arkuszach egzaminacyjnych,</li>
                         <li>nabycie płynności w mówieniu po angielsku,</li>
@@ -73,12 +73,12 @@ const Oferta = () => {
                 </div>
                 <div className={classes.description}>
                     <p className={classes.text}>
-                    Korepetycje szkolne<span className={classes.BoldItalic}> dla uczniów szkół podstawowych klas 4-8, młodzieży szkół średnich,</span>
+                    Korepetycje szkolne<span className={classes.BoldItalic}> dla uczniów szkół podstawowych klas 4-8, młodzieży szkół średnich, </span>
                     przygotowujące do egzaminów końcowych oraz <span className={classes.BoldItalic}>rozwijające wszystkie umiejętności językowe tj. mówienie, słuchanie, czytanie i pisanie.</span>
                     </p>
                     <p className={classes.text + ' ' + classes.space}>
-                    <span className={classes.BoldItalic}>Drogi Rodzicu,</span> wykorzystaj potencjał młodego umysłu swojego dziecka, <span className={classes.BoldItalic}>by uczyło się tak, jak lubi to jego mózg.</span> 
-                    Daj mu szansę na biegłą znajomość języka angielskiego, mówienie po angielsku z brytyjskim akcentem oraz <span className={classes.BoldItalic}>solidne przygotowanie się do egzaminu na 100%.</span> 
+                    <span className={classes.BoldItalic}>Drogi Rodzicu,</span> wykorzystaj potencjał młodego umysłu swojego dziecka, <span className={classes.BoldItalic}>by uczyło się tak, jak lubi to jego mózg. </span> 
+                    Daj mu szansę na biegłą znajomość języka angielskiego, mówienie po angielsku z brytyjskim akcentem oraz <span className={classes.BoldItalic}>solidne przygotowanie się do egzaminu na 100%. </span> 
                     Jego sukces jest w Twoich rękach, zapewnij mu lepszą przyszłość.  
                     </p>
                 </div>
@@ -114,7 +114,7 @@ const Oferta = () => {
                     Chcesz zaskoczyć swoich partnerów biznesowych profesjonalnym, płynnym angielskim? 
                     </p>
                     <p className={classes.text + ' ' + classes.space}>
-                    Dzięki tym zajęciom <span className={classes.BoldItalic}>poznasz żywy język,</span> używany w codziennej komunikacji biznesowej, <span className={classes.BoldItalic}>zaczniesz mówić w pracy pewnie i bez stresu.</span> 
+                    Dzięki tym zajęciom <span className={classes.BoldItalic}>poznasz żywy język,</span> używany w codziennej komunikacji biznesowej, <span className={classes.BoldItalic}>zaczniesz mówić w pracy pewnie i bez stresu. </span> 
                     Wejdź na wyższy poziom języka angielskiego i wykorzystaj go do osiągnięcia własnych celów. 
                     </p>
                 </div>

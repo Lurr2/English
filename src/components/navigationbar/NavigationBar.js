@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const NavigationBar = () => {
     return (
         <section className={classes.container}>
-        <div className={classes.logo}><p className={classes.TitleAndLogo}><img className={classes.logoImage} src={logo} alt='logo'/>znacbiegleangielski</p></div>
+        <div className={classes.logo}><p className={classes.TitleAndLogo}><img className={classes.logoImage} src={logo} alt='logo'/><span className={classes.displaing}>znacbiegleangielski</span></p></div>
             <nav className={classes.nav}>
                 <ul>
                     <li>

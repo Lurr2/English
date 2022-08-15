@@ -16,7 +16,7 @@ const AboutUs = () => {
                     <ul className={classes.listText}>
                         <li className={classes.listSpacing}><span className={classes.ItalicBold}>Masz blokadę językową </span>(stresujesz się na samą myśl przed mówieniem w języku angielskim)?</li>
                         <li className={classes.listSpacing}>Rozumiesz co czytasz, <span className={classes.ItalicBold}>ale nie potrafisz ułożyć sensownego zdania?</span></li>
-                        <li className={classes.listSpacing}>Uczysz się tego języka od wielu lat, uczęszczałaś/-łeś do niezliczonej ilości szkół językowych, wydałaś/-łeś mnóstwo pieniędzy na prywatnych nauczycieli i <span className={classes.ItalicBold}>nadal nie widzisz EFEKTÓW?</span></li>
+                        <li className={classes.listSpacing}>Uczysz się tego języka od wielu lat i <span className={classes.ItalicBold}>nadal nie widzisz EFEKTÓW?</span></li>
                         <li className={classes.listSpacing}><span className={classes.ItalicBold}>Uważasz, że nie masz talentu?</span></li>
                         <li className={classes.listSpacing}>Potrzebujesz poświadczenia swoich umiejętności w pracy, <span className={classes.ItalicBold}>chcesz zdać międzynarodowy certyfikat Cambridge?</span></li>
                         <li className={classes.listSpacing}>Masz dość nieefektywnych zajęć w dużych grupach i <span className={classes.ItalicBold}>oczekujesz indywidualnego podejścia?</span></li>
@@ -26,8 +26,8 @@ const AboutUs = () => {
                 <div className={classes.titlePart + ' ' + classes.BorderRed}>
                     <h2>Być może <span className={classes.ItalicBold}>jesteś rodzicem i chcesz, by Twoje dziecko:</span></h2>
                 </div>
-                <div className={classes.listText}>
-                    <ul>
+                <div >
+                    <ul className={classes.listText}>
                         <li className={classes.listSpacing}>wykorzystało potencjał plastycznego, młodego umysłu i <span className={classes.ItalicBold}>mówiło w języku angielskim z brytyjskim akcentem?</span></li>
                         <li className={classes.listSpacing}><span className={classes.ItalicBold}>zdało egzamin ósmoklasisty/maturalny</span> z wysokim wynikiem i dostało się do wymarzonej szkoły?</li>
                         <li className={classes.listSpacing}>uczyło się w bezstresowej atmosferze, sprzyjającej kreatywności i tym samym <span className={classes.ItalicBold}>osiągnęło wysokie wyniki w nauce?</span></li>
@@ -36,7 +36,7 @@ const AboutUs = () => {
                 </div>
                 <div className={classes.dotsy}><p><FcIdea/><FcIdea/><FcIdea/></p></div>
                 <div className={classes.description}>
-                    <p><img alt="Prowadzący" src={Dawid} />Świetnie się składa, bo dokładnie wiem jak Ci w tym pomóc.
+                    <p><img alt="Prowadzący" src={Dawid} />Świetnie się składa, bo dokładnie <span className={classes.ItalicBold}>wiem jak Ci w tym pomóc. </span>
                         Nazywam się Dawid Bielecki i jestem założycielem szkoły językowej „Znać biegle angielski”.
                         Ze mną zacznij mówić biegle po angielsku.
                         Jako zawodowy nauczyciel języka angielskiego mam wieloletnie doświadczenie w nauczaniu dzieci

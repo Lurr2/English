@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
                 <div className={classes.logo}><img className={classes.logoImage} src={logo} alt='logo'/></div>
                 <Link to="/kontakt">
-                <ButtonForm buttonText={`Przejdź do formularza`} />
+                <ButtonForm buttonText={`Zapisz się`} />
                 </Link>
             </header>
     );

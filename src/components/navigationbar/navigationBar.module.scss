@@ -10,20 +10,48 @@
   position: fixed;
   z-index: 1;
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+      
+  }
+}
+@media only screen and (max-width: 600px) {
+  .displaing {
+  display: none;
+      
+  }
+}
 
 .logo {
   padding-top: 2px;
   font-size: 1.7rem;
   color: white;
 }
+
+
+
+
 .logoImage {
   margin-right: 1.5rem;
   width: 3rem;
   height: 3rem;
   
 }
+
+@media only screen and (max-width: 600px) {
+  .logoImage {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+
 .TitleAndLogo {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav ul {
@@ -36,6 +64,13 @@
 .nav li {
   margin-left: 1.5rem;
   font-size: 1.25rem;
+}
+@media only screen and (max-width: 600px) {
+  .nav li {
+    margin-left: 1rem;
+  font-size: 1.2rem;
+      
+  }
 }
 
 .nav a {
