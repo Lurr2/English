@@ -49,8 +49,8 @@
       }
       @media only screen and (max-width: 400px) {
         .text {
-            font-size: 0.9rem;
-            text-indent: 1.5rem;
+            font-size: 1rem;
+            text-indent: 0;
             text-align: center;
         }
       }
@@ -64,7 +64,7 @@
       }
       @media only screen and (max-width: 400px) {
         .space {
-            font-size: 0.9rem;
+            font-size: 1rem;
             text-align: center;
         }
       }
@@ -78,7 +78,7 @@
       }
       @media only screen and (max-width: 600px) {
         .gain {
-            font-size: 0.9rem;
+            font-size: 1rem;
         }
       }
     .BoldItalic {
@@ -107,7 +107,7 @@
       }
       @media only screen and (max-width: 400px) {
         li {
-            font-size: 0.9rem;
+            font-size: 1rem;
         }
       }
     

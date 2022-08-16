@@ -19,7 +19,7 @@ const Oferta = () => {
                 </div>
                 <div className={classes.description}>
                     <p className={classes.text}>
-                        Zajęcia konwersacyjne dla osób, które chcą <span className={classes.BoldItalic}>w szybki i skuteczny sposób nauczyć się używać języka angielskiego w praktyce. </span>
+                    Zajęcia konwersacyjne dla osób, które chcą <span className={classes.BoldItalic}>w szybki i skuteczny sposób nauczyć się używać języka angielskiego w praktyce. </span>
                         Profesjonalny <span className={classes.BoldItalic}>trening mówienia po angielsku</span> bazujący na żywym języku.
                         Zajęcia oparte są na angażujących anglojęzycznych materiałach dydaktycznych tj. filmy Youtube, artykuły, prasa, wysyłanych przed zajęciami.
                     </p>

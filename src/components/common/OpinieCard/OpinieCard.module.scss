@@ -30,6 +30,11 @@
             font-size: 1.5rem;
         }
       }
+      @media only screen and (max-width: 400px) {
+        .Name {
+            font-size: 1.5rem;
+        }
+      }
     .description{
         text-align: justify;
         font-size: 1.5rem;
@@ -39,6 +44,13 @@
             font-size: 1.1rem;
         }
       }
+      @media only screen and (max-width: 400px) {
+        .description {
+            font-size: 1rem;
+            text-align: center;
+            
+        }
+      }
     .star {
         color:gold;
         font-size: 2rem;
@@ -46,6 +58,11 @@
     @media only screen and (max-width: 768px) {
         .star {
             font-size: 1.5rem;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .star {
+            font-size: 1.2rem;
         }
       }
 
@@ -64,5 +81,10 @@
   @media only screen and (max-width: 600px) {
     .container {
         margin: 0 3rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .container {
+        margin: 0 1.1rem;
     }
   }
