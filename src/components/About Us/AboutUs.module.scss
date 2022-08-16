@@ -23,6 +23,11 @@
             margin: .5rem 1rem;
         }
       }
+      @media only screen and (max-width: 400px) {
+        .textBox {
+            margin: .3rem .5rem;
+        }
+      }
 
     
     .listText {
@@ -38,8 +43,8 @@
       }
       @media only screen and (max-width: 400px) {
         .listText {
-            font-size: .9rem;
-            
+            font-size: .7rem;
+            text-justify: inter-character;
         }
       }
     
@@ -47,6 +52,12 @@
     .listSpacing {
         margin: 1rem 0;
         margin-left: 1rem;
+    }
+    @media only screen and (max-width: 400px) {
+      .listSpacing {
+        margin: 1rem;
+          
+      }
     }
     
     .listText .listSpacing:before {
@@ -57,7 +68,7 @@
     }
     @media only screen and (max-width: 400px) {
         .listText .listSpacing:before {
-            font-size: .8rem;
+            font-size: .6rem;
         }
       }
 
@@ -103,9 +114,10 @@
       }
       @media only screen and (max-width: 400px) {
         .description {
-            font-size: .9rem;
+            font-size: .7rem;
+            text-indent: 1.5rem;
+            text-justify: inter-character;
             
-
         }
       }
     
@@ -138,8 +150,9 @@
       }
       @media only screen and (max-width: 400px) {
         img {
-            width: 8rem;
-           
+            width: 6rem;
+            margin: .5rem;
+            box-shadow: 5px 5px 8px #222;
         }
       }
     .BorderRed {
@@ -157,7 +170,8 @@
       }
       @media only screen and (max-width: 400px) {
         .BorderRed {
-            font-size: .7rem;
+            padding: .4rem;
+            font-size: .6rem;
         }
       }
     .dotsy {

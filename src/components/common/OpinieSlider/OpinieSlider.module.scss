@@ -1,6 +1,6 @@
 @import "../../../baseCss/variables.module.scss";
 .container {
-  margin: 7rem 20rem;
+  margin: 8rem 20rem;
   position: relative;
   display: flex;
   text-align: center;
@@ -61,7 +61,7 @@
   }
   @media only screen and (max-width: 400px) {
     .description {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       width: 22rem;
     }
   }
