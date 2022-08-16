@@ -16,6 +16,25 @@
         color: $color-white;
         border-radius: 4rem;
     }
+    @media only screen and (max-width: 768px) {
+        .TitlePart {
+            font-size: 1.2rem;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .TitlePart {
+            font-size: .9rem;
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .TitlePart {
+            font-size: 0.95rem;
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+      }
     .description {
         text-align: justify;
         margin: 1rem 0;
@@ -23,12 +42,45 @@
     .text {
         text-indent: 3rem;
     }
+    @media only screen and (max-width: 600px) {
+        .text {
+            font-size: 1.1rem;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .text {
+            font-size: 0.9rem;
+            text-indent: 1.5rem;
+            text-align: center;
+        }
+      }
     .space {
         margin-top: 1.5rem;
     }
+    @media only screen and (max-width: 600px) {
+        .space {
+            font-size: 1rem;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .space {
+            font-size: 0.9rem;
+            text-align: center;
+        }
+      }
     .gain {
         font-weight: bold;
     }
+    @media only screen and (max-width: 600px) {
+        .gain {
+            font-size: 1.1rem;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .gain {
+            font-size: 0.9rem;
+        }
+      }
     .BoldItalic {
         font-weight: bold;
         font-style: italic;
@@ -48,6 +100,16 @@
     li {
         margin: .5rem 0;
     }
+    @media only screen and (max-width: 600px) {
+        li {
+            font-size: 1.1rem;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        li {
+            font-size: 0.9rem;
+        }
+      }
     
       .Tick li:before {
         color: red;
@@ -62,10 +124,61 @@
         font-size: 3rem;
         padding-top: 1rem;
     }
+    @media only screen and (max-width: 768px) {
+        .icon {
+            font-size: 2rem;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .icon {
+            font-size: 1.5rem;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .icon {
+            padding-top: .4rem;
+            font-size: 1.2rem;
+        }
+      }
     .GoldIcon {
         color: gold;
     }
+    @media only screen and (max-width: 768px) {
+        .GoldIcon {
+            font-size: 1rem;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .GoldIcon {
+            font-size: 0.6rem;
+        }
+      }
     .centerText {
         text-align: center;
     }
+    @media only screen and (max-width: 400px) {
+        .centerText {
+            font-size: 1rem;
+        }
+      }
 }
+@media only screen and (max-width: 1024px) {
+    .container {
+        margin: 3rem 8rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+        margin: 3rem 5rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+        margin: 3rem 2rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .container {
+        margin: 1.5rem 2rem;
+    }
+  }

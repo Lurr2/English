@@ -1,9 +1,11 @@
 import React from 'react';
 import classes from './AboutUs.module.scss';
 import Dawid from '../../img/Dawid.jpg';
-import {FcIdea} from 'react-icons/fc';
+
+import { FcIdea } from 'react-icons/fc';
 const AboutUs = () => {
     return (
+
         <section className={classes.container}>
             <div className={classes.heading}>
                 <h2>Dlaczego „Znać biegle angielski”?</h2>
@@ -34,9 +36,18 @@ const AboutUs = () => {
                         <li className={classes.listSpacing}><span className={classes.ItalicBold}>zaczęło mówić po angielsku?</span></li>
                     </ul>
                 </div>
-                <div className={classes.dotsy}><p><FcIdea/><FcIdea/><FcIdea/></p></div>
+                <div className={classes.dotsy}><p><FcIdea /><FcIdea /><FcIdea /></p></div>
+                <div className={classes.descriptionPhone}>
+                        <img alt="Prowadzący" src={Dawid} className={classes.PhoneImg} />
+                        <p className={classes.PhoneText}>Świetnie się składa, bo dokładnie <span className={classes.ItalicBold}>wiem jak Ci w tym pomóc. </span>
+                            Nazywam się Dawid Bielecki i jestem założycielem szkoły językowej „Znać biegle angielski”.
+                            Ze mną zacznij mówić biegle po angielsku.
+                            Jako zawodowy nauczyciel języka angielskiego mam wieloletnie doświadczenie w nauczaniu dzieci
+                            (od 4-klasy szkoły podstawowej, młodzieży szkolnej oraz osób dorosłych na <span className={classes.ItalicBold}>wszystkich poziomach zaawansowania od A1 do C2</span>).
+                        </p>
+                    </div>
                 <div className={classes.description}>
-                    <p><img alt="Prowadzący" src={Dawid} />Świetnie się składa, bo dokładnie <span className={classes.ItalicBold}>wiem jak Ci w tym pomóc. </span>
+                    <p><img alt="Prowadzący" src={Dawid} className={classes.image}/>Świetnie się składa, bo dokładnie <span className={classes.ItalicBold}>wiem jak Ci w tym pomóc. </span>
                         Nazywam się Dawid Bielecki i jestem założycielem szkoły językowej „Znać biegle angielski”.
                         Ze mną zacznij mówić biegle po angielsku.
                         Jako zawodowy nauczyciel języka angielskiego mam wieloletnie doświadczenie w nauczaniu dzieci
@@ -52,6 +63,7 @@ const AboutUs = () => {
                 </div>
             </div>
         </section>
+
     );
 };
 

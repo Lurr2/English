@@ -1,0 +1,36 @@
+@import '../../../baseCss/variables.module.scss';
+.btn {
+    display: none;
+    
+  }
+  @media only screen and (max-width: 400px) {
+    .btn {
+     
+        display: block;
+        background-color: #202F50;
+        border: 0;
+        box-sizing: border-box;
+        color: $color-white;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        margin-top: 2.2rem;
+        border-radius: 100px;
+        width: 15rem;
+        text-align: center;
+        cursor: pointer;
+
+      
+        &:hover,
+        &:focus { 
+          background-color: red;
+          color: #ffffff;
+        }
+        
+        &:active {
+          background: red;
+          color: rgb(255, 255, 255, .7);
+        }    
+    }
+  }
+  

@@ -1,4 +1,7 @@
 @import '../../baseCss/variables.module.scss';
+.descriptionPhone {
+  display: none;
+}
 
 .container {
     
@@ -44,7 +47,7 @@
       @media only screen and (max-width: 400px) {
         .listText {
             font-size: .7rem;
-            text-justify: inter-character;
+            text-justify:inter-word;
         }
       }
     
@@ -100,6 +103,7 @@
       @media only screen and (max-width: 400px) {
         .heading {
             font-size: .7rem;
+            margin-bottom: 2rem;
         }
       }
     .description {
@@ -114,9 +118,9 @@
       }
       @media only screen and (max-width: 400px) {
         .description {
-            font-size: .7rem;
+            font-size: .6rem;
             text-indent: 1.5rem;
-            text-justify: inter-character;
+            text-justify:inter-word;
             
         }
       }
@@ -130,7 +134,7 @@
         }
       }
     
-    img {
+    .image {
         float: left;
         width: 24rem;
         margin-right: 1rem;
@@ -139,17 +143,17 @@
         box-shadow: 10px 10px 16px #222;
     }
     @media only screen and (max-width: 1024px) {
-        img {
+        .image {
           width: 16rem;
         }
       }
       @media only screen and (max-width: 768px) {
-        img {
+        .image {
             width: 14rem;
         }
       }
       @media only screen and (max-width: 400px) {
-        img {
+        .image {
             width: 6rem;
             margin: .5rem;
             box-shadow: 5px 5px 8px #222;
@@ -186,4 +190,34 @@
             font-size: 2rem;
         }
       }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+      margin-top: 2rem;
+      
+  }
+}
+@media only screen and (max-width: 400px) {
+  .description {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .descriptionPhone {
+    box-shadow: 2px 2px 8px #222;
+    display: block;
+  }
+  .PhoneImg {
+    
+    height: 57vh;
+    width: 100%;
+  
+    
+  }
+  .PhoneText {
+    margin: .5rem;
+    text-align: justify;
+    text-indent: 1.5rem;
+    font-size: .8rem
+  }
 }

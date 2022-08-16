@@ -1,6 +1,7 @@
 @import "../../baseCss/variables.module.scss";
 @import url("https://fonts.googleapis.com/css2?family=Amarante&family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Amarante&family=Prata&display=swap");
+
 .header {
   background-image: linear-gradient(
       to right bottom,
@@ -30,7 +31,7 @@
   }
   @media only screen and (max-width: 600px) {
     &_text_box {
-        top: 55%;
+        top:45%;
     left: 60%;
     }
   }
@@ -209,7 +210,7 @@
   }
   @media only screen and (max-width: 600px) {
     .logo {
-      top: 70%;
+      top: 63%;
       left: 50%;
     }
   }
@@ -222,7 +223,7 @@
 }
 @media only screen and (max-width: 400px) {
     .header {
-      height: 40vh;
+      display: none;
       
     }
   }
