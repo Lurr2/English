@@ -1,13 +1,73 @@
-@import '../../../../baseCss/variables.module.scss';
+@import "../../../../baseCss/variables.module.scss";
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 20rem;
 
+  ul {
+    display: none;
+  }
+
+  li {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: justify;
+  }
+  @media only screen and (max-width: 1024px) {
     li {
-        font-size: 1.5rem;
-        padding: 1rem 0;
-        text-align: justify;
+      font-size: 1.2rem;
     }
+  }
+  @media only screen and (max-width: 768px) {
+    li {
+      font-size: 1.05rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    li {
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    li {
+        text-align: center;
+        list-style-position: inside;
+        
+    }
+    ul > li::marker {
+        font-weight: bold;
+      }
+  }
+  @media only screen and (max-width: 400px) {
+    ol {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    ul {
+      display: block;
+      list-style:decimal;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin: 2rem 9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 1.3rem 5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 1.3rem 2.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    margin: 1.3rem 2rem;
+  }
 }

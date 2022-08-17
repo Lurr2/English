@@ -45,6 +45,12 @@ const AboutUs = () => {
                             Jako zawodowy nauczyciel języka angielskiego mam wieloletnie doświadczenie w nauczaniu dzieci
                             (od 4-klasy szkoły podstawowej, młodzieży szkolnej oraz osób dorosłych na <span className={classes.ItalicBold}>wszystkich poziomach zaawansowania od A1 do C2</span>).
                         </p>
+                        <p>
+                        Jako jeden z nielicznych <span className={classes.ItalicBold}>osiągnąłem najwyższy poziom języka angielskiego C2,</span> potwierdzony certyfikatem Cambridge  Proficiency C2 (sekcja „speaking” z wynikiem 230/230). Mówię po angielsku z brytyjskim akcentem. Jestem twórcą dwóch autorskich programów: „<span className={classes.ItalicBold}>Mów biegle po angielsku</span>” oraz „<span className={classes.ItalicBold}>Zdaj egzamin na 100%</span>”.
+                    </p>
+                    <p>
+                        <span className={classes.ItalicBold}>Zapoznaj się z ofertą,</span> dobierz zajęcia dla siebie/swojego dziecka i dołącz do grona uczniów „Znać biegle angielski”.
+                    </p>
                     </div>
                 <div className={classes.description}>
                     <p><img alt="Prowadzący" src={Dawid} className={classes.image}/>Świetnie się składa, bo dokładnie <span className={classes.ItalicBold}>wiem jak Ci w tym pomóc. </span>

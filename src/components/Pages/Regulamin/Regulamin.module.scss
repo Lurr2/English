@@ -1,6 +1,22 @@
 .heading {
-    padding-top: 3rem;
+    padding-top: 4rem;
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
+@media only screen and (max-width: 768px) {
+    .heading {
+      font-size: 1.8rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .heading {
+      font-size: 1.6rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .heading {
+      font-size: 1.6rem;
+      padding-top: 2rem;
+    }
+  }

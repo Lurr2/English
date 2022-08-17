@@ -15,6 +15,14 @@ const RegulaminText = () => {
             })}
             
             </ol>
+            <ul>
+            {data.regulamin.map(ragu => {
+                return (
+                <li className={classes.text} id={ragu.id}>{ragu.text}</li>
+                );
+            })}
+            
+            </ul>
         </section>
    );
 };
