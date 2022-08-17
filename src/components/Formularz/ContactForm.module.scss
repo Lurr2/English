@@ -14,6 +14,28 @@
             margin-left: 1rem;
         }
     }
+    @media only screen and (max-width: 1024px) {
+      input {
+        margin: .5rem 2rem;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      input {
+        margin: .5rem .7rem;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      input {
+        margin: .5rem .7rem;
+        width: 25rem;
+      }
+    }
+    @media only screen and (max-width: 400px) {
+      input {
+        margin: .5rem .7rem;
+        width: 16.5rem;
+      }
+    }
     .TextArea {
         padding: 12px 20px;
         margin: .5rem 4rem;
@@ -23,6 +45,16 @@
         &::placeholder {
             color: $color-grey;
         }
+    }
+    @media only screen and (max-width: 1024px) {
+      .TextArea {
+        margin: .5rem 2rem;
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      .TextArea {
+        margin: .5rem .7rem;
+      }
     }
     .btn_contact {
             background-color: #202F50;
@@ -50,4 +82,18 @@
             }
             
           }
+          @media only screen and (max-width: 1024px) {
+            .btn_contact {
+              margin: .5rem 2rem;
+            }
+          }
+          @media only screen and (max-width: 768px) {
+            .btn_contact {
+              margin: .5rem .7rem;
+            }
+          }
+}
+.Thanking {
+  border: solid $color-white 3px;
+  text-align: center;
 }

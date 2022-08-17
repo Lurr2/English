@@ -31,9 +31,9 @@
   }
   @media only screen and (max-width: 400px) {
     li {
-        text-align: center;
-        list-style-position: inside;
-        
+        text-align: left;
+        // list-style-position: inside;
+        font-size: 1rem;
     }
     ul > li::marker {
         font-weight: bold;
@@ -48,6 +48,7 @@
     ul {
       display: block;
       list-style:decimal;
+      
     }
   }
 }

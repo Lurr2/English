@@ -40,7 +40,7 @@ const AboutUs = () => {
                 <div className={classes.descriptionPhone}>
                         <img alt="Prowadzący" src={Dawid} className={classes.PhoneImg} />
                         <p className={classes.PhoneText}>Świetnie się składa, bo dokładnie <span className={classes.ItalicBold}>wiem jak Ci w tym pomóc. </span>
-                            Nazywam się Dawid Bielecki i jestem założycielem szkoły językowej „Znać biegle angielski”.
+                            Nazywam się Dawid Bielecki i jestem założycielem „Znać biegle angielski”.
                             Ze mną zacznij mówić biegle po angielsku.
                             Jako zawodowy nauczyciel języka angielskiego mam wieloletnie doświadczenie w nauczaniu dzieci
                             (od 4-klasy szkoły podstawowej, młodzieży szkolnej oraz osób dorosłych na <span className={classes.ItalicBold}>wszystkich poziomach zaawansowania od A1 do C2</span>).
@@ -54,7 +54,7 @@ const AboutUs = () => {
                     </div>
                 <div className={classes.description}>
                     <p><img alt="Prowadzący" src={Dawid} className={classes.image}/>Świetnie się składa, bo dokładnie <span className={classes.ItalicBold}>wiem jak Ci w tym pomóc. </span>
-                        Nazywam się Dawid Bielecki i jestem założycielem szkoły językowej „Znać biegle angielski”.
+                        Nazywam się Dawid Bielecki i jestem założycielem „Znać biegle angielski”.
                         Ze mną zacznij mówić biegle po angielsku.
                         Jako zawodowy nauczyciel języka angielskiego mam wieloletnie doświadczenie w nauczaniu dzieci
                         (od 4-klasy szkoły podstawowej, młodzieży szkolnej oraz osób dorosłych na <span className={classes.ItalicBold}>wszystkich poziomach zaawansowania od A1 do C2</span>).

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import classes from './Kontakt.module.scss';
-import UpSpace from '../../Header/UpSpace';
+import UpSpace1 from '../../Header/HeaderSpaceContact/UpSpace1';
 import Footer from '../../Footer/Footer';
 import ContactForm from '../../Formularz/ContactForm';
 import Header from '../../Header/Header';
@@ -10,13 +10,13 @@ import Header from '../../Header/Header';
 const Kontakt = () => {
     return (
         <section>
-        <UpSpace />
+        <UpSpace1 />
             <Header />
             <div className={classes.container}>
                 <div className={classes.content}>
                     <div className={classes.spaceMargin}>
-                        <p className={classes.signUpText}>ul. Generała Stanisława Skalskiego, Lublin, Polska</p>
-                        <p className={classes.signUpText}>Turka, Lublin, Polska</p>
+                        <p className={classes.signUpText}><span className={classes.Bold}>Adres 1:</span> ul. Generała Stanisława Skalskiego, Lublin, Polska</p>
+                        <p className={classes.signUpText}><span className={classes.Bold}>Adres 2:</span> Turka, Lublin, Polska</p>
                         <p className={classes.signUpText}>+48 889 854 957</p>
                         <p className={classes.signUpText}>+48 517 559 810</p>
                         <p className={classes.signUpText}>znacbiegleangielski@gmail.com</p>

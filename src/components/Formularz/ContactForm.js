@@ -21,7 +21,7 @@ function ContactForm() {
   const [value, setValue] = useState();
   const [state, handleSubmit] = useForm("xpznazgy");
   if (state.succeeded) {
-    return <p>Dziękujemy za wiadomość! Wkrótce się skontaktujemy</p>;
+    return <p className={classes.Thanking}>Dziękujemy za wiadomość! Wkrótce się skontaktujemy!!!!</p>;
   }
   return (
     <form className={classes.FormContainer} onSubmit={handleSubmit} method="POST" >

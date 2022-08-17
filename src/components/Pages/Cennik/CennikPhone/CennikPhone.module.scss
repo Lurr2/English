@@ -1,0 +1,80 @@
+@import "../../../../baseCss/variables.module.scss";
+
+.container {
+  display: none;
+
+  table {
+    border: solid black 2px;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    li {
+      list-style: none;
+      margin: 0.6rem;
+    }
+    @media only screen and (max-width: 400px) {
+      li {
+        margin: 0.3rem;
+      }
+    }
+
+    td {
+      font-size: 1.2rem;
+      border: solid black 2px;
+    }
+
+    @media only screen and (max-width: 400px) {
+      td {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .cennik {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 400px) {
+    .cennik {
+      font-size: 1.5rem;
+    }
+  }
+  .centerBold {
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .centerBold {
+      font-size: 0.85rem;
+      padding: 0.3rem;
+    }
+  }
+
+  .Bold {
+    font-weight: bold;
+    text-align: left;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .Bold {
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin: 0 20rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+  }
+}

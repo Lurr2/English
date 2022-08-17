@@ -1,10 +1,10 @@
 @import '../../../baseCss/variables.module.scss';
 
 .container {
-    height: 80vh;
     display: flex;
     background-color: #d3d3d3;
     padding-top: 3rem;
+    
 
     .content, .content2{
         flex: 1;
@@ -17,6 +17,16 @@
     .spaceMargin {
         margin: 0 1rem;
     }
+    @media only screen and (max-width: 600px) {
+        .spaceMargin {
+            padding-bottom: 1rem;
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        .spaceMargin {
+            margin: 0 .2rem;
+        }
+      }
     .receiveText{
         font-size: 2rem;
         color: $color-heading-misc;
@@ -25,6 +35,37 @@
         font-size: 1.5rem;
         padding: .2rem 0;
     }
-    
-    
+    @media only screen and (max-width: 1024px) {
+        .signUpText {
+            font-size: 1.4rem;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .signUpText {
+            font-size: 1.2rem;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .signUpText {
+            font-size: 1.1rem;
+        }
+      }
+      .Bold {
+        font-weight: bold;
+      }
 }
+@media only screen and (max-width: 1024px) {
+    .container {
+        padding-top: 3.5rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .container {
+        padding-top: 2rem;
+    }
+  }

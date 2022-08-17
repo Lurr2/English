@@ -1,50 +1,153 @@
-@import '../../../baseCss/variables.module.scss';
+@import "../../../baseCss/variables.module.scss";
 
 .container {
-    margin: 0 20rem;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  margin: 0 20rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    table{
-        border: solid black 2px;
-        border-collapse: collapse;
-     li {
-        list-style: none;
-        margin: .6rem;
-     }
-
-td {
-    font-size: 1.2rem;
+  table {
     border: solid black 2px;
-}
-}
-.cennik {
+    border-collapse: collapse;
+    li {
+      list-style: none;
+      margin: 0.6rem;
+    }
+    @media only screen and (max-width: 768px) {
+      li {
+        margin: 0.3rem;
+      }
+    }
+
+    td {
+      font-size: 1.2rem;
+      border: solid black 2px;
+    }
+    @media only screen and (max-width: 1024px) {
+      td {
+        font-size: 1rem;
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      td {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .cennik {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-}
-.centerBold {
+  }
+  @media only screen and (max-width: 768px) {
+    .cennik {
+      font-size: 1.5rem;
+    }
+  }
+  .centerBold {
     text-align: center;
     font-weight: bold;
     padding: 1rem;
-}
-.Bold {
+  }
+  @media only screen and (max-width: 1024px) {
+    .centerBold {
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .centerBold {
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .centerBold {
+      font-size: 0.85rem;
+    }
+  }
+
+  .Bold {
     font-weight: bold;
     text-align: left;
-}
-}
-.textContainer {
-    margin: 0 20rem;
-    margin-bottom: 2rem;
-    text-align: justify;
-    font-style: italic;
-    p {
-        margin: 1rem 0;
-        font-size: 1.2rem;
+  }
+  @media only screen and (max-width: 1024px) {
+    .Bold {
+      font-size: 1rem;
     }
+  }
+  @media only screen and (max-width: 768px) {
+    .Bold {
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .Bold {
+      font-size: 0.85rem;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin: 0 7rem;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 0 4rem;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+    .container {
+        display: none;
+      }
+    }
+
+.textContainer {
+  margin: 0 20rem;
+  text-align: justify;
+  font-style: italic;
+
+  .textSpace {
+    margin: 0.5rem 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .textContainer {
+    margin: 0 7rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .textContainer {
+    margin: 0 4rem;
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .textContainer {
+    margin: 0 1.5rem;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .textContainer {
+    margin: 0 1.5rem;
+    font-size: 0.9rem;
+    text-align: left;
+  }
 }
