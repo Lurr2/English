@@ -19,7 +19,7 @@ function ContactForm() {
   };
 
   const [value, setValue] = useState();
-  const [state, handleSubmit] = useForm("xpznazgy");
+  const [state, handleSubmit] = useForm("xvoypzle");
   if (state.succeeded) {
     return <p className={classes.Thanking}>Dziękujemy za wiadomość! Wkrótce się skontaktujemy!!!!</p>;
   }
@@ -88,3 +88,4 @@ export default ContactForm;
 
 // Kod dla szefowej
 // xvoypzle const [state, handleSubmit] = useForm("xvoypzle");
+// Fin
