@@ -47,14 +47,13 @@
   {"id": "13", "text":"W przypadku wystąpienia problemów technicznych po stronie ucznia, które uniemożliwiają przeprowadzenie lekcji, zajęcia uważa się za odbyte."},
   {"id": "14", "text":"W przypadku wystąpienia problemów technicznych po stronie lektora, które uniemożliwiają prowadzenie lekcji, uczeń będzie miał prawo do otrzymania bezpłatnej lekcji lub zwrotu pieniędzy."},
   {"id": "15", "text":"W przypadku spóźnienia się na zajęcia przez ucznia, czas spóźnienia odliczany jest od czasu trwania zajęć."},
-  {"id": "16", "text":"Uczeń podczas zajęć może swobodnie pić napoje własne lub zapewnione przez lektora i jeść różne przekąski."},
-  {"id": "17", "text":"Lektor nie ponosi odpowiedzialności za dzieci i młodzież pozostawione bez opieki przed i po zajęciach, ani za rzeczy osobiste kursantów."},
-  {"id": "18", "text":"W razie choroby ucznia/nauczyciela umożliwiającej uczestnictwo/prowadzenie zajęć, zaleca się odbycie zajęć w trybie online, bądź z zachowaniem obostrzeń sanitarnych (maseczka)."},
-  {"id": "19", "text":"Uczeń ma prawo do rezygnacji z kursu językowego bez podawania przyczyny w dowolnym momencie trwania zajęć z zachowaniem tygodniowego okresu wypowiedzenia."},
-  {"id": "20", "text":"W przypadku dłuższej niż 2 tygodnie nieobecności ucznia, lektor zastrzega sobie prawo do rozwiązania współpracy z klientem. Po tym czasie uczeń traci prawo do uzyskania stałych opłat za zajęcia w danym roku szkolnym."},
-  {"id": "21", "text":"Lektor zobowiązuje się do świadczenia usług edukacyjnych wyłącznie podczas prowadzonych zajęć. Prowadzący zajęcia zastrzega sobie prawo do odmowy wykonania określonych usług edukacyjnych tj. pisanie sprawdzianów, egzaminów, wypracowań, tłumaczeń etc. za kursanta."},
-  {"id": "22", "text":"Uczestnik wyraża zgodę na przetwarzanie swoich danych osobowych podanych przy zapisach dla potrzeb niezbędnych do realizacji zajęć."},
-  {"id": "23", "text":"Regulamin wchodzi w życie z dniem 02.09.2022r."}
+  {"id": "16", "text":"Lektor nie ponosi odpowiedzialności za dzieci i młodzież pozostawione bez opieki przed i po zajęciach, ani za rzeczy osobiste kursantów."},
+  {"id": "17", "text":"W razie choroby ucznia/nauczyciela umożliwiającej uczestnictwo/prowadzenie zajęć, zaleca się odbycie zajęć w trybie online, bądź z zachowaniem obostrzeń sanitarnych (maseczka)."},
+  {"id": "18", "text":"Uczeń ma prawo do rezygnacji z kursu językowego bez podawania przyczyny w dowolnym momencie trwania zajęć z zachowaniem tygodniowego okresu wypowiedzenia."},
+  {"id": "19", "text":"W przypadku dłuższej niż 2 tygodnie nieobecności ucznia, lektor zastrzega sobie prawo do rozwiązania współpracy z klientem. Po tym czasie uczeń traci prawo do uzyskania stałych opłat za zajęcia w danym roku szkolnym."},
+  {"id": "20", "text":"Lektor zobowiązuje się do świadczenia usług edukacyjnych wyłącznie podczas prowadzonych zajęć. Prowadzący zajęcia zastrzega sobie prawo do odmowy wykonania określonych usług edukacyjnych tj. pisanie sprawdzianów, egzaminów, wypracowań, tłumaczeń etc. za kursanta."},
+  {"id": "21", "text":"Uczestnik wyraża zgodę na przetwarzanie swoich danych osobowych podanych przy zapisach dla potrzeb niezbędnych do realizacji zajęć."},
+  {"id": "22", "text":"Regulamin wchodzi w życie z dniem 02.09.2022r."}
  ]
 
 }

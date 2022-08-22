@@ -51,7 +51,7 @@ const Cennik = () => {
                     </tr>
                     <tr>
                         <td><ul className={classes.Bold}>
-                            <li>Certyfikaty Cambridge: CPE Cambridge C2 Proficiency, CAE Cambridge C1 Advanced, FCE Cambridge B2 First, Business English</li>
+                            <li>Certyfikaty Cambridge: CPE Cambridge C2 Proficiency, CAE Cambridge C1 Advanced, FCE Cambridge B2 First</li>
                         </ul></td>
                         <td><ul>
                             <li>100zł/45min**</li>
